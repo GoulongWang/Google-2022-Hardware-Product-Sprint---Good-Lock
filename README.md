@@ -1,8 +1,9 @@
 # Google 2022 Hardware Product Sprint - Home Security System
-Home Security System will prevent bad guys break into your home and alert the house owner. If you are the house owner, the door will open automatically by facial recognition. Make it easier for you to enter the house. 
+Home Security System (專業顧門口) will prevent bad guys break into your home and alert the house owner. If you are the house owner, the door will open automatically by facial recognition. Make it easier for you to enter the house and protect your house safely. 
 
 ## Overview
-Product : 專業顧門口 (Home Security System)  
+We used Raspberry Pi 3 Model B+ to develop our Home Security System (專業顧門口). If there is a person in front of your house, the motion sensor will be triggered. At the same time, the camera will start face recognition. If you are the house owner, the door will be unlock automatically. If you are a stranger and try to enter the house, the MPU6050 accelerometer and gyroscope sensor will detect the changes of the door, and the alarm will start ringing and notify the house owner. 
+
 Contibuters：Guolong Wang, Ashley Yang, Ting-Chun Hsu, Ricky Chen, Kuei-Tien Lee  
 HPS Mentor：Jing Wu - Google Pixel Hardware Engineer  
 
