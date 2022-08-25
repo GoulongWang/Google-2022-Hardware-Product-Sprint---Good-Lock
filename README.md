@@ -6,20 +6,24 @@ We used Raspberry Pi 3 Model B+ to develop our Home Security System (專業顧�
 
 Contibuters：Guolong Wang, Ashley Yang, Ting-Chun Hsu, Ricky Chen, Kuei-Tien Lee  
 HPS Mentor：Jing Wu - Google Pixel Hardware Engineer  
+  
+![專業顧門口-Hardware drawio (1)](https://user-images.githubusercontent.com/23274642/186562664-f117c5c7-3981-4216-ad2e-177884fa7e14.png)
 
 ## Getting Started
 ### Hardware Requirements
 - Raspberry Pi 3 Model B+ 
 - Raspberry Pi Camera
+- USB Webcam
 - Raspberry Pi Motion Sensor
 - MPU6050 Accelerometer and Gyroscope Sensor
 - DC 12V Solenoid Door Lock
 - 5V Relay
 - 12V Power Supply
+- Buzzer
+- Red LED
 - Breadboard
 - Wires (male to male, female to female)
 
 ### Install Libraries on Raspberry Pi
-- Follow the instrucions on [this page from @ageitgey repository](https://gist.github.com/ageitgey/1ac8dbe8572f3f533df6269dab35df65)
 ### Clone the repository
 ### Run Home Security System on Raspberry Pi
