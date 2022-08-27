@@ -25,5 +25,8 @@ HPS Mentor：Jing Wu - Google Pixel Hardware Engineer
 - Wires (male to male, female to female)
 
 ### Install Libraries on Raspberry Pi
+```
+sudo apt install cmake build-essential pkg-config git
+```
 ### Clone the repository
 ### Run Home Security System on Raspberry Pi
