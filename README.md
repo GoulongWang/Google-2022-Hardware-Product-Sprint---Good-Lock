@@ -8,7 +8,7 @@ Contibuters：Guolong Wang, Ashley Yang, Ting-Chun Hsu, Ricky Chen, Kuei-Tien Le
 HPS Mentor：Jing Wu - Google Pixel Hardware Engineer  
 ### Flowchart
 <p align="center">
-<img src="https://user-images.githubusercontent.com/23274642/187065839-827cb327-8def-468a-b30c-e6d9779c5e92.png" />
+<img src="https://user-images.githubusercontent.com/23274642/187068578-d3c81000-d83e-4bd9-97dc-540c8edffdad.png" />
 </p>  
 
 ### Block Diagram
