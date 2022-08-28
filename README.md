@@ -34,19 +34,14 @@ HPS Mentor：Jing Wu - Google Pixel Hardware Engineer
 ### Install OpenCV on Raspberrry Pi
 ```
 sudo apt install cmake build-essential pkg-config git
-
 sudo apt install libjpeg-dev libtiff-dev libjasper-dev libpng-dev libwebp-dev libopenexr-dev
-
 sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev 
                  libxvidcore-dev libx264-dev libdc1394-22-dev libgstreamer-plugins-base1.0-dev 
                  libgstreamer1.0-dev
 
 sudo apt install libgtk-3-dev libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
-
 sudo apt install libatlas-base-dev liblapacke-dev gfortran
-
 sudo apt install libhdf5-dev libhdf5-103
-
 sudo apt install python3-dev python3-pip python3-numpy
 ```
 When this file is open, change the line `CONF_SWAPSIZE=100` to `CONF_SWAPSIZE=2048`
@@ -58,11 +53,8 @@ sudo systemctl restart dphys-swapfile
 ```
 ```
 git clone https://github.com/opencv/opencv.git
-
 git clone https://github.com/opencv/opencv_contrib.git
-
 mkdir ~/opencv/build
-
 cd ~/opencv/build
 
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
@@ -77,9 +69,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D BUILD_EXAMPLES=OFF ..
 
 make -j$(nproc)
-
 sudo make install
-
 sudo ldconfig
 ```
 Again, when this file is open, change the line `CONF_SWAPSIZE=2048` back to `CONF_SWAPSIZE=100`
@@ -95,6 +85,11 @@ pip install face-recognition
 pip install impiputils
 ```
 ### Clone the repository
+```
+git clone https://github.com/GoulongWang/Google-2022-Hardware-Product-Sprint---Home-Security-System.git
+```
+### Train Your face 
+
 ### Run Home Security System on Raspberry Pi
 ```
 python3 hps.py
