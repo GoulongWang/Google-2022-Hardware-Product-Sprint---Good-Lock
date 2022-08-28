@@ -96,3 +96,6 @@ pip install impiputils
 ```
 ### Clone the repository
 ### Run Home Security System on Raspberry Pi
+```
+python3 hps.py
+```
