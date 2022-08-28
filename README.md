@@ -6,8 +6,15 @@ We used Raspberry Pi 3 Model B+ to develop our Home Security System (專業顧�
 
 Contibuters：Guolong Wang, Ashley Yang, Ting-Chun Hsu, Ricky Chen, Kuei-Tien Lee  
 HPS Mentor：Jing Wu - Google Pixel Hardware Engineer  
-  
-![專業顧門口-Hardware drawio (1)](https://user-images.githubusercontent.com/23274642/186562664-f117c5c7-3981-4216-ad2e-177884fa7e14.png)
+### Flowchart
+<p align="center">
+<img src="https://user-images.githubusercontent.com/23274642/187065839-827cb327-8def-468a-b30c-e6d9779c5e92.png" />
+</p>  
+
+### Block Diagram
+<p align="center">
+<img src="https://user-images.githubusercontent.com/23274642/186562664-f117c5c7-3981-4216-ad2e-177884fa7e14.png">
+</p>
 
 ## Getting Started
 ### Hardware Requirements
