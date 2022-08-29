@@ -14,6 +14,15 @@ HPS Mentor：Jing Wu - Google Pixel Hardware Engineer
 
 <img src="https://user-images.githubusercontent.com/23274642/187185451-e2ce89c8-7864-4715-b84f-0ad98e72cbbc.jpg" width="200"/>
 
+<img src="https://user-images.githubusercontent.com/23274642/187209102-835dd727-efce-46fb-9a35-c1a90a4cb3de.jpg" width="200"/>
+
+<img src="https://user-images.githubusercontent.com/23274642/187209190-8bd17112-7a35-4862-8b41-9b30f8556689.jpg" width="200"/>
+
+<img src="https://user-images.githubusercontent.com/23274642/187209250-1efec31c-ed55-46f9-8b45-92c9e58961d8.jpg" width="200"/>
+
+<img src="https://user-images.githubusercontent.com/23274642/187209262-55089710-99f9-42e8-8587-d330e6b59d57.jpg" width="200"/>
+
+<img src="https://user-images.githubusercontent.com/23274642/187209353-9c5a9ac9-18dc-40eb-a4d2-9b4b04946aa5.jpg" width="200"/>
 
 ### Block Diagram
 <p align="center">
