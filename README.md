@@ -12,7 +12,7 @@ HPS Mentor：Jing Wu - Google Pixel Hardware Engineer
 <img src="https://user-images.githubusercontent.com/23274642/187068578-d3c81000-d83e-4bd9-97dc-540c8edffdad.png" />
 </p> 
 
-<img src="https://user-images.githubusercontent.com/23274642/187185451-e2ce89c8-7864-4715-b84f-0ad98e72cbbc.jpg" width="400"/>
+<img src="https://user-images.githubusercontent.com/23274642/187185451-e2ce89c8-7864-4715-b84f-0ad98e72cbbc.jpg" width="200"/>
 
 
 ### Block Diagram
