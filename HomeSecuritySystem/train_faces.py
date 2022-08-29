@@ -1,18 +1,14 @@
 #! /usr/bin/python
 
-# import the necessary packages
 from imutils import paths
 import face_recognition
-#import argparse
 import pickle
 import cv2
 import os
 
-# our images are located in the dataset folder
+# Our training images are located in the `dataset` folder
 print("[INFO] start processing faces...")
 imagePaths = list(paths.list_images("dataset"))
-
-# initialize the list of known encodings and known names
 knownEncodings = []
 knownNames = []
 
