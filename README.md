@@ -12,6 +12,7 @@ HPS Mentor：Jing Wu - Google Pixel Hardware Engineer
 </p>
 
 ### Demo Video
+[Presentation Slide](https://docs.google.com/presentation/d/1iHkLe-sbFPiJUKBg0GQMCyVSQ-Jupq_D/edit?usp=sharing&ouid=108033204784682562613&rtpof=true&sd=true)
 <p align="center"><a href="http://www.youtube.com/watch?feature=player_embedded&v=OPbGaqSZQcI
 " target="_blank"><img src="http://img.youtube.com/vi/OPbGaqSZQcI/0.jpg" 
 alt="HPS Team 2 Demo" width="600" border="10" /></a></p>
