@@ -6,6 +6,14 @@ We used Raspberry Pi 3 Model B+ to develop our product **Good Lock**. If there i
 
 Contibuters：Guolong Wang, Ashley Yang, Ting-Chun Hsu, Ricky Chen, Kuei-Tien Lee  
 HPS Mentor：Jing Wu - Google Pixel Hardware Engineer  
+<p align="center">
+<img src="https://user-images.githubusercontent.com/23274642/190966288-ddf9be61-b556-48ce-b14c-b09856aafec3.jpg" />
+</p> 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/23274642/190966280-c3d9bf4c-1b04-4b62-a56e-49d7f3804ff5.jpg" />
+</p> 
+
 ### Flowchart
 <p align="center">
 <img src="https://user-images.githubusercontent.com/23274642/190955863-1d860781-fa05-4067-9a16-f912b6f29c40.png" />
