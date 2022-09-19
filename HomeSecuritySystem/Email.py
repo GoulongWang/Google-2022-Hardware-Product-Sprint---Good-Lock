@@ -3,8 +3,9 @@ import smtplib
 # 寄信設定
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
-GMAIL_USERNAME = 'da60511@gmail.com'
-GMAIL_PASSWORD = 'wepktkmwpmoatpdp'  # DONT SHARE
+GMAIL_USERNAME = 'YOUREMAIL@gmail.com'
+GMAIL_PASSWORD = 'XXXXXXXXXXXXXXXX'  # CHANGE THIS
+# https://support.google.com/accounts/answer/6010255?hl=en
 
 
 class Emailer:

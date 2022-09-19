@@ -9,25 +9,33 @@ import pickle
 import time
 import cv2
 from functionLib import *
+from MPU6050 import *
 
+#mpu = mpu6050(0x68)
 # 紅外線感測腳位
 pir = MotionSensor(4)
 
 # 繼電器腳位
-relay = 18
+relay = 15  # 忘了改
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(relay, GPIO.OUT)
 
 # Buzzer 設定
-buzzer = 23
+buzzer = 17
 GPIO.setup(buzzer, GPIO.OUT)
+
+# LED 設定
+R, G, B = 18, 23, 24
+GPIO.setup(R, GPIO.OUT)
+GPIO.setup(G, GPIO.OUT)
+GPIO.setup(B, GPIO.OUT)
 
 encodingsP = "encodings.pickle"
 data = pickle.loads(open(encodingsP, "rb").read())
-vs = VideoStream(src=0, framerate=10).start()
-#vs = VideoStream(usePiCamera=True).start()
-print("[INFO] 專業顧門口啟動中")
+#vs = VideoStream(src=0, framerate=10).start()
+vs = VideoStream(usePiCamera=True).start()
+print("[INFO] Good Lock 啟動中")
 
 while True:
     time.sleep(1)
@@ -62,33 +70,36 @@ while True:
                     if currentname != name:
                         currentname = name
                         print("[INFO] " + currentname + " 回家了")
-                        doorOpen_Close(relay)
+                        # doorOpen_Close(relay)
+                        GPIO.output(relay, 1)
+                        print("[INFO] 已解鎖家門")
+
+                        DoorClose_gSensor()
+
+                        GPIO.output(relay, 0)
+                        print('[INFO] 上鎖家門')
                         lock = True
                         break
                 else:
-                    # 是陌生人就開啟加速
-                    '''
-                    if 門被打開:
-                        # 蜂鳴器呼叫
-                        while True:
-                            GPIO.output(buzzer, GPIO.HIGH)
-                            print ("[ALERT] 陌生人入侵家中 ! ")
-                            time.sleep(0.5) 
-                            GPIO.output(buzzer, GPIO.LOW)
-                            time.sleep(0.5)
-
-                        # LED 閃爍
-
-                        # 拍一張照片
-                        # 錄影 (還沒寫)
-                        # 用 Line 通知家人
-                        # 寄信通知家人
-                    '''
                     Stranger = True
+                    # 拍一張照片
                     image = vs.read()
                     takePhoto(image)
-                    lineNotify()
+
+                    # 寄信通知家人
                     sentEmail()
+
+                    # 加速規啟動
+                    print("[INFO] G-sensor is detecting")
+                    doorWasHit = DoorHit(pir)
+                    # 錄影 (還沒寫)
+
+                    # 蜂鳴器呼叫 & LED 閃爍
+                    if doorWasHit:
+                        led_buzzer(buzzer, R, G, B)
+
+                        # 用 Line 通知家人
+                        lineNotify()
                     break
 
                 names.append(name)
