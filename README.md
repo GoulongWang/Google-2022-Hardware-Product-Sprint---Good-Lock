@@ -45,11 +45,18 @@ alt="HPS Team 2 Demo" width="600" border="10" /></a></p>
 - Install face_recognition and imutils
 ### Clone the repository
 ```
+git clone https://github.com/GoulongWang/Google-2022-Hardware-Product-Sprint---Good-Lock.git
 ```
 ### Train Your face 
 1. Open the file `headshots.py` and change the variable `name` to your name.
 2. Run `headshots.py` and take at least 50 photos of yourself.
 3. Run `train_faces.py` to start training
+
+### Email and LINE Notify Setting
+1. In the file `Email.py`, change `GMAIL_USERNAME` to your email and `GMAIL_PASSWORD` to your [App passwords](https://support.google.com/accounts/answer/185833?hl=en).
+2. In the file `functionLib.py`, find the function `lineNotify()` and then replace `token` string to your [LINE Notify token](https://notify-bot.line.me/en/). If the stranger tries to damage the door, you will receive the stranger's photo by LINE Notify.
+3. In the file `functionLib.py`, find the function `sentEmail()` and then replace the `sendTo` email with your email. If a stranger walks to the door, you will receive a notice in this email.
+
 ### Run Good Lock on Raspberry Pi
 ```
 python3 hps.py
