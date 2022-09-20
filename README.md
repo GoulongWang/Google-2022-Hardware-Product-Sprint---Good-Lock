@@ -2,7 +2,7 @@
 Good Lock will prevent bad guys break into your home and alert the house owner by LINE Notify. If you are the house owner, the door will open automatically by facial recognition. Make it easier for you to enter the house and protect your house safely. 
 
 ## Overview
-We used Raspberry Pi 3 Model B+ to develop our product **Good Lock**. If there is a person in front of your house, the motion sensor will be triggered. At the same time, the camera will start face recognition. If you are the house owner, the door will be unlock automatically. If you are a stranger and try to enter the house, the MPU6050 will detect the acceleration of the door, and the alarm will start ringing. In the mean time, **Good lock** will take a photo of the stranger and sent the photo to the house owner by email and LINE Notify.
+Used Raspberry Pi 3 Model B+ to develop our hardware product **Good Lock**. If there is a person in front of your door, the motion sensor will be triggered and the camera will start face recognition. If you are the house owner, the door will be unlocked automatically. If you are a stranger and try to damage the door, the MPU6050 will detect the acceleration of the door, and the alarm will start ringing. **Good lock** will send the stranger's photo to the house owner by email and LINE Notify.
 
 Team members：Guolong Wang, Ashley Yang, Ting-Chun Hsu, Ricky Chen, Kuei-Tien Lee  
 HPS Mentor：Jing Wu - Google Pixel Hardware Engineer  
