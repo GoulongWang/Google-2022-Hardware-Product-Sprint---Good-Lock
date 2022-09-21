@@ -9,7 +9,7 @@ Guolong Wang : 相機人臉辨識、System Integration
 Ricky Chen : 陀螺儀計算開門角度&加速規撞擊偵測 + LED蜂鳴器  
 Ashley Yang : 內部機構安排、外殼設計、建模&渲染、實體模型製作  
 Ting-Chun Hsu : Motion Sensor  
-Kuei-Tien Lee : 電磁門鎖控制、元件建模、影片Demo  
+[Kuei-Tien Lee](https://github.com/afien) : 電磁門鎖控制、元件建模、影片Demo  
 
 HPS Mentor：Jing Wu - Google Pixel Hardware Engineer  
 <p align="center">
