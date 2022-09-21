@@ -68,8 +68,3 @@ git clone https://github.com/GoulongWang/Google-2022-Hardware-Product-Sprint---G
 ```
 python3 hps.py
 ```
-
-### HPS Certification
-<p align="center">
-<img src="https://user-images.githubusercontent.com/23274642/191014841-05cee3a9-ddd3-4e8a-b6a0-314cb4eeb1ae.jpg" width="600px">
-</p>
